@@ -16,8 +16,8 @@ const sequelize = new Sequelize('hello_world', 'benchmarkdbuser', 'benchmarkdbpa
   dialect: 'mysql',
   logging: false,
   pool: {
-    max: 50,
-    min: 0,
+    max: 150,
+    min: 50,
     idle: 10000
   }
 });
